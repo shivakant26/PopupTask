@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+.center_wr{
+  width: 1200px;
+  margin: 0 auto;
+}
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.logo{
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+.menubar{
+  float: right;
+  width: 70%;
+  text-align: right;
+}
+.menu{
+  padding: 31px 0px;
+}
+.menubar a{
+  text-decoration: none;
+  padding: 0px 20px;
+  color:#fff;
+  text-transform: uppercase;
+  transition: .4s;
+}
+.menubar a:hover{
+  color:black;
+}
+.header{
+  background-color: #ec6100;
+  /* padding: 20px 0px; */
+}
+.form-field{
+margin-bottom: 20px;
+}
+#myform{
+margin: auto;
+width: 25%;
+}
+.error{
+  color:red
+}
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.th.css-1ygcj2i-MuiTableCell-root {
+  font-weight: bold;
+  text-align: center;
+}
+.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.css-1ex1afd-MuiTableCell-root{
+text-align: center;
+}
+#left{
+  margin-left: 15px;
+}
+.form{
+  margin-top: 55px;
+}
+.logo h1{
+  margin-top: 16px;
+}
